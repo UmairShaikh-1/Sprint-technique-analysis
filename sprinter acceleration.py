@@ -106,9 +106,9 @@ training_df = pd.concat([training_df, dummies_df], axis=1)
 X = training_df.drop(columns=['athlete_id','time_to_10m','time_to_20m','time_to_30m','Elite'])
 Y = training_df['time_to_30m'].to_frame()
 
-#scatter plots can give a good idea about the positve or negative relation of the variables with the target
+#scatter plots can give a good idea about the positve or negative relation of the variables with the target.
 #time to 30m is determined by many factors. This dataset focuses only on the starting block.
-#since no single variable has a drastic impact on the time to 30m. Its difficult to identify the direction of each variable
+#since no single variable has a drastic impact on the time to 30m. Its difficult to identify the direction of each variable.
 '''
 fig, axes = plt.subplots(nrows=1,ncols=2,figsize=(20,20))
 axes[0].scatter(X['front_knee_angle'],Y['time_to_30m'])
@@ -172,4 +172,5 @@ plt.ylabel('coefficients')
 plt.barh(coefficients_df['features'],coefficients_df['coefficients'])
 plt.show()
 '''
+
 
