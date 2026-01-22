@@ -1,6 +1,6 @@
 # Sprint-technique-analysis
-This project explores how starting‑block biomechanics influence a sprinter’s time to 30 meters, using a synthetic dataset modeled on realistic ranges for elite and average athletes. 
-The goal is to quantify how variables such as block angles, knee angles, reaction time, and RFmax contribute to early‑acceleration performance.
+This project explores how different variables in the starting‑block influence a sprinter’s time to 30 meters, using a synthetic dataset modeled on realistic ranges for elite and average athletes. 
+The goal is to identify how variables such as block angles, knee angles, reaction time, and RFmax contribute to early‑acceleration performance.
 
 ## Project Overview
 * Synthetic dataset of 500 sprinters (250 elite, 250 average)
@@ -11,7 +11,7 @@ The goal is to quantify how variables such as block angles, knee angles, reactio
 
 ## Methodology
 1. Data Generation
-A synthetic dataset was created using realistic ranges for elite and average sprinters. Performance times were modeled using weighted biomechanical factors plus noise.
+A synthetic dataset was created based on realistic facts and figures for elite and average sprinters. 
 
 2. Preprocessing
 * One‑hot encoding for skill level
@@ -19,14 +19,14 @@ A synthetic dataset was created using realistic ranges for elite and average spr
 * Train/test split for modeling
 
 3. Modeling
-A Linear Regression model was used to quantify how each biomechanical variable affects 30m sprint time.
+A Linear Regression model was used to identify the impact of each variable.
 
 4. Coefficient Analysis
-* Model coefficients were extracted and visualized to interpret:
+Model coefficients were extracted and visualized to interpret:
 * Positive vs negative relationships
 * Relative strength of each variable
 
 ## Key Insights
-* RFmax and block angles show strong negative relationships with 30m time (better mechanics → faster acceleration).
-* Knee angles and TBCG tend to increase 30m time when suboptimal.
-* Sprint performance emerges from multiple interacting factors, not a single dominant variable.
+* RFmax and block angles show strong negative relationships with 30m time.
+* Having improper Knee angles and TBCG increase the timme to 30m.
+* There are a multitude of different factors that contribute to 30m time.
