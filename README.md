@@ -30,3 +30,11 @@ Model coefficients were extracted and visualized to interpret:
 * RFmax and block angles show strong negative relationships with 30m time.
 * Having improper Knee angles and TBCG increase the timme to 30m.
 * There are a multitude of different factors that contribute to 30m time.
+
+## Running the code:
+
+Clone this repository: git clone 
+
+Install the required libraries: pip install pandas matplotlib sklearn
+
+Run the Jupyter Notebook or Python script: python Iris Dataset.py
