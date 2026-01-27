@@ -33,8 +33,8 @@ Model coefficients were extracted and visualized to interpret:
 
 ## Running the code:
 
-Clone this repository: git clone https://github.com/UmairShaikh-1/Sprint-technique-analysis/blob/main/synthetic_sprint_data_comparison.csv
+Clone this repository: git clone synthetic_sprint_data_comparison.csv
 
-Install the required libraries: pip install pandas matplotlib sklearn
+Install the required libraries: pip install numpy pandas matplotlib sklearn os
 
-Run the Jupyter Notebook or Python script: python https://github.com/UmairShaikh-1/Sprint-technique-analysis/blob/main/sprinter%20acceleration.py
+Run the Jupyter Notebook or Python script: python sprinteracceleration.py
