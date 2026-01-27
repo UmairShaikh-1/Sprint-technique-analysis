@@ -37,4 +37,4 @@ Clone this repository: git clone synthetic_sprint_data_comparison.csv
 
 Install the required libraries: pip install numpy pandas matplotlib sklearn os
 
-Run the Jupyter Notebook or Python script: python sprinteracceleration.py
+Run the Jupyter Notebook or Python script: python sprinter acceleration.py
